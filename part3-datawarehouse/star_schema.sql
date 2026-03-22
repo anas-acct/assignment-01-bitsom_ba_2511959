@@ -35,7 +35,7 @@ CREATE TABLE fact_sales (
     FOREIGN KEY (product_id) REFERENCES dim_product(product_id)
 );
 
--- Insert into dim_date (cleaned YYYY-MM-DD format)
+-- Insert into dim_date
 INSERT INTO dim_date VALUES
 (1, '2023-08-29', 8, 2023),
 (2, '2023-12-12', 12, 2023),
